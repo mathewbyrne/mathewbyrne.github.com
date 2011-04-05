@@ -28,7 +28,7 @@ a:hover {
 
 #business-card {
 	text-align: center;
-	background-color: #f3f3f3;
+	background: url('../img/noise.gif');
 	overflow: hidden;
 	position: absolute;
 	top: 50%;
@@ -57,11 +57,15 @@ a:hover {
 #business-card li {
 	display: inline;
 	font-size: 18px;
-	padding: 0 1em;
 }
 
 #navigation {
 	margin-top: 40px;
+}
+
+#navigation a {
+	display: inline-block;
+	padding: 0.5em 1.5em;
 }
 
 #footer {
