@@ -5,6 +5,13 @@ $(function () {
 	bc.css('margin-top', bc.outerHeight() / -2);
 	bc.hide().fadeIn('slow');
 	
+	var footer = $('#footer');
+	var footer_margin_top = $('#footer').css('margin-top');
+	footer.css({'margin-top': 0, 'opacity': 0.01}).animate({
+	        'margin-top': footer_margin_top,
+	        'opacity': 1
+	    }, 'slow');
+	
 	var tl = $('#tag-line'),
 	    tl_text = tl.text(),
 	    tl_timeout;

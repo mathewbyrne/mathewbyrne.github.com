@@ -26,6 +26,13 @@ a:hover {
 	text-decoration: underline;
 }
 
+#wrapper {
+	width: 100%;
+	height: 100%;
+	position: relative;
+	overflow: hidden;
+}
+
 #business-card {
 	text-align: center;
 	background: url('../img/noise.gif');
@@ -33,6 +40,9 @@ a:hover {
 	position: absolute;
 	top: 50%;
 	padding: 40px 0;
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
 	/* This is handled in js
 	margin-top: -135px;
 	height: 150px;
