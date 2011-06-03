@@ -23,24 +23,23 @@
 	</script>
 </head>
 <body class="page">
-	<div id="wrapper">
-		<div id="header">
-			<h1>Mathew Byrne</h1>
+<div id="wrapper">
+	<div id="header">
+		<div id="header-inner">
+			<h1>{{ page.title }}</h1>
 			<ol id="navigation">
 				<li><a href="/about" title="A little about myself">About</a></li>
 				<li><a href="/resume" title="My skills and employment history">Resume</a></li>
 				<li><a href="/contact" title="How to get in contact with me">Contact</a></li>
 			</ol>
 		</div>
-		<div id="main">
-			<h1>{{ page.title }}</h1>
-			<div id="content">{{ content }}</div>
-		</div>
 	</div>
-	<div id="footer">
-		<a href="mailto:mathewbyrne@gmail.com">email</a>
-		<a href="https://github.com/mathewbyrne">GitHub</a>
-		<a href="http://twitter.com/mathewbyrne">Twitter</a>
-	</div>
+	<div id="main">{{ content }}</div>
+</div>
+<div id="footer">
+	<a href="mailto:mathewbyrne@gmail.com">email</a>
+	<a href="https://github.com/mathewbyrne">GitHub</a>
+	<a href="http://twitter.com/mathewbyrne">Twitter</a>
+</div>
 </body>
 </html>
