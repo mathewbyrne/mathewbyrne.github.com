@@ -3,48 +3,39 @@ layout: default
 title: Resume
 ---
 
-# Resume
-
-
-## Personal Info
-
-Mathew Byrne
-mathewbyrne@gmail.com
-+61 419 323 468
-1/16 Darling St South Yarra 3141
+[mathewbyrne@gmail.com](mailto:mathewbyrne@gmail.com)<br />
++61 419 323 468<br />
+1/16 Darling St, South Yarra 3141<br />
 D.O.B. 30/09/1985
 
+# Summary of Qualifications
 
-## Qualifications and Skills
+- Mathew Byrne is an well-rounded professional developer and designer with over five years experience developing and maintaining a variety of rich web applications for small to medium sized businesses. Mathew’s specialities include lateral approach to solving problems, crafting and implementing software solutions and effectively communicating technical ideas.
 
-BA Computer Science RMIT 2004-2007
+- Completed a BA in Computer Science at RMIT, Melbourne in 2007.
 
-Developer strengths:
-- PHP - Zend Framework, symphony, Wordpress
-- Python - Django, Google App Engine
-- Javascript - jQuery
-- HTML5 & CSS
-- git and Subversion
-- SQL
-- Shell interface - scripting, administration etc.
-Other:
-- C, C++, Java, Perl, C#
+- Experienced in developing web applications with PHP, particularly using the Zend Framework.  Good working knowledge of other platforms such as Wordpress, Code Igniter and symfony.
 
+- Skilled UI designer and developer with an advanced knowledge of Javascript and jQuery.  Capable with Photoshop and transforming designs into rich interfaces using HTML5 and CSS, emphasising on browser compatibility.
+- Disciplined in the use of Source Control with Subversion and git.
 
-## Professional Experience
+- Well versed in a variety of OS and environments with a preference for Mac OS X and a command line shell.
 
-### JB Interactive
+- Proficient in Python, bash/zsh scripting, Java, C, C++, Perl and C#.
 
-Director
-September 2006 - Present
+# Professional Experience
 
-JB Interactive is a web consulting company based in Melbourne that I part-own and operate. My role while working here has been extremely broad, but is primarily web application development, UI design and project management.
+## JB Interactive, Melbourne
 
-During my time at JB Interactive I have employed and managed up to four staff at once, and worked in teams of two or three on a variety of projects.
+**Director**, September 2006 – Present
 
-#### Major Projects
+- Part-owned and operated a small web consulting company building web solutions for small to medium sized business’, primarily located in the Melbourne area.
 
-Selector - http://selector.com/
+- Broad range of responsibilities including web application development, developing requirements and specs with clients and managing up to four concurrent staff members.
+
+### Major Projects
+
+#### Selector - [http://selector.com/](http://selector.com/)
 
 - Developed a large scale web application using PHP with the Zend Framework and MySQL with a custom ORM layer serving 80,000 unique visitors per month.
 
@@ -52,16 +43,30 @@ Selector - http://selector.com/
 
 - Implemented a robust asset storage system for the large quantity of images and video being served. Integrated this system opaquely into existing frameworks.
 
-- Built a Mobile site alongside the existing desktop site using the same underlying architecture and infrastructure. Used advanced CSS3 effects 
+- Built a Mobile site alongside the existing desktop site using the same underlying architecture and infrastructure. Used advanced CSS3 effects and animations to improve the mobile user experience, and take advantage of specific platforms.
 
-JB Interactive - http://jbinteractive.com.au/
+#### JB Interactive - [http://jbinteractive.com.au/](http://jbinteractive.com.au/)
 
-- Built a secure credit card payment system using PHP, XML and the eway payment gateway.
+- Business web-site for JB Interactive designed to showcase our work in a interesting, functional way to prospective clients.
 
-- Used the Google Maps API to include custom widgets.
+- Built a secure credit card payment system using PHP to interface with the eway payment gateway’s XML API.
+Used the Google Maps API to include custom mapping widgets.
 
+#### DUSA Bookshop - [http://dusabookshop.com.au/](http://dusabookshop.com.au/)
 
-National Australia Bank
-6 week contract - student internship
-January-February 2006
+- Worked with Deakin University Student Association to build a user-friendly interface that integrated with their external, third-party POS system.
 
+- Created a rich, jQuery driven interface enabling Bookshop employees to administrate content on the website.
+Used the Twicetter API to display current “Tweets” on the homepage.
+
+## RMIT, Melbourne
+
+**Tutor**, July–November 2006
+
+- Taught classes of undergraduate students in concepts of modern operating system design and implementation.  This required being able to effectively communicate with students, a high proportion of which spoke english as a secondary language.
+
+## National Australia Bank, Melbourne
+
+**Student Intern**, January–February 2006
+
+- Worked in a team-oriented, corporate environment for a six week summer internship, during which work was done on an internal reporting tool for the data management division.
