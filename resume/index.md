@@ -5,9 +5,7 @@ title: Resume
 
 [Download as PDF](/files/resume.pdf)
 
-**Mathew Byrne**  
-1/16 Darling St, South Yarra 3141  
-+61 419 323 468  
+**Mathew Byrne**
 [http://mathewbyrne.com/](http://mathewbyrne.com/)  
 [mathewbyrne@gmail.com](mailto:mathewbyrne@gmail.com)  
 
