@@ -3,6 +3,8 @@ layout: default
 title: Resume
 ---
 
+[Download as PDF](/files/resume.pdf)
+
 **Mathew Byrne**  
 1/16 Darling St, South Yarra 3141  
 +61 419 323 468  
