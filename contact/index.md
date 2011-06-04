@@ -3,4 +3,8 @@ layout: default
 title: Contact
 ---
 
-The easiest way to get in contact with me is via email.
+You can get in contact with Mathew Byrne via the following methods:
+
+- [email](mailto:mathewbyrne@gmail.com)
+- [Twitter](http://twitter.com/mathewbyrne)
+- [GitHub](https://github.com/mathewbyrne)
