@@ -9,7 +9,8 @@ $(function () {
 	// Highlight the current page in navigation.
 	var path = window.location.pathname;
 	$('#navigation a').each(function () {
-		if (path.indexOf($(this).attr('href')) === 0) {
+		var href = $(this).attr('href');
+		if (href.length > 1 && path.indexOf(href) === 0) {
 			$(this).addClass('current');
 		}
 	});

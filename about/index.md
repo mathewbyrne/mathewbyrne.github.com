@@ -3,7 +3,11 @@ layout: default
 title: About
 ---
 
-Mathew Byrne is an well-rounded professional developer and designer with over five years experience developing and maintaining a variety of rich web applications for small to medium sized businesses. Mathew’s specialities include lateral approach to solving problems, crafting and implementing software solutions and effectively communicating technical ideas.
+<div class="photo">
+	<img src="/img/avatar.png" width="128" height="128" alt="Self-indulgent, desaturated, overly-cropped photograph" />
+</div>
+
+Mathew Byrne is an well-rounded professional developer and designer with over five years experience developing and maintaining a variety of rich web applications for small to medium sized businesses. Mathew’s specialities include a lateral approach to solving problems, crafting and implementing software solutions and effectively communicating technical ideas.
 
 # Contact
 

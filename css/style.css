@@ -208,3 +208,17 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 	list-style: disc;
 	margin-left: 1.2em;
 }
+
+/* Extra */
+
+.photo {
+	float: right;
+	margin: 0 0 1em 1em;
+	padding: 0.5em;
+	border: 1px solid #eee;
+	border-bottom-color: #ddd;
+}
+
+img {
+	display: block;
+}
