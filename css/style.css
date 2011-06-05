@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5 {
 
 #main {
 	overflow: auto;
-	padding-bottom: 50px;
+	padding-bottom: 100px;
 }
 
 #footer {
@@ -132,6 +132,15 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 .home #navigation a {
 	display: inline-block;
 	padding: 0.5em 1.5em;
+}
+
+.home #navigation li:before {
+	content: "•";
+	color: #ccc;
+}
+
+.home #navigation li:first-child:before {
+	content: none;
 }
 
 #navigation a.current {
