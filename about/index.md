@@ -19,4 +19,4 @@ You can get in contact with me via the following methods:
 
 # This Site
 
-The source for this site can be found hosted on [GitHub](https://github.com/mathewbyrne/mathewbyrne.github.com). The hosting is provided by GitHub through [GitHub pages](http://pages.github.com/).
+The source for this site can be found hosted on [GitHub](https://github.com/mathewbyrne/mathewbyrne.github.com). The hosting is provided by GitHub through [GitHub pages](http://pages.github.com/). The font used for headings is [Podkova](http://www.google.com/webfonts/family?family=Podkova).
