@@ -29,7 +29,7 @@ ul, ol {
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #555;
-	text-shadow: 0 1px #fff;
+	/*text-shadow: 0 1px #fff;*/
 }
 
 body, html {
@@ -38,7 +38,7 @@ body, html {
 
 a {
 	text-decoration: none;
-	color: #DB3F1A;
+	color: #4E7B98;
 }
 
 a:hover {
@@ -46,7 +46,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5 {
-	font-family: Rokkitt, sans-serif;
+	font-family: Podkova, sans-serif;
 }
 
 /* Sticky Footer */
@@ -78,23 +78,38 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 
 /* Homepage */
 
+body {
+	background-color: #eee;
+}
+
+#business-card,
+#header {
+	background: url(/img/blue.png);
+	border: 2px solid #050F14;
+	border-left: none;
+	border-right: none;
+	color: #eee;
+	text-shadow: 0 1px #000;
+}
+
+#business-card a,
+#header a {
+	color: #FFAA4F;
+}
+
 #business-card {
 	text-align: center;
-	background: url('../img/paper.gif');
 	overflow: hidden;
 	position: absolute;
 	top: 50%;
 	padding: 40px 0;
-	border: 1px solid #ddd;
-	border-left: none;
-	border-right: none;
 	/* This is handled in js
 	margin-top: -135px;
 	height: 150px;*/
 }
 
 #business-card h1 {
-	font-size: 35px;
+	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 0.5em;
 }
@@ -106,18 +121,8 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 #business-card h2 {
-	font-size: 22px;
-	height: 24px;
-	line-height: 24px;
-	position: relative;
-}
-
-#business-card h2 span {
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 24px;
+	font-size: 28px;
+	height: 28px;
 }
 
 #business-card li {
@@ -148,7 +153,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 }
 
 #footer {
-	font-size: 16px;
+	font-size: 14px;
 	height: 50px;
 	line-height: 50px;
 	margin-top: -50px;
@@ -162,8 +167,6 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 /* Internal Structure */
 
 #header {
-	background: url('../img/paper.gif');
-	border: 1px solid #ddd;
 	margin-bottom: 18px;
 }
 
@@ -176,6 +179,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 #header #navigation li {
 	display: inline;
 	list-style: none;
+	line-height: 30px;
 }
 
 .page #header-inner,
