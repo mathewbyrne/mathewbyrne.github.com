@@ -12,6 +12,7 @@ html, body, div, span, h1, h2, h3, h4, h5, p, ul, ol, li, a, code, pre {
 
 body {
 	line-height: 1;
+	text-shadow: 0 1px #fff;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -85,7 +86,7 @@ body {
 #business-card,
 #header {
 	background: url(/img/blue.png);
-	border: 2px solid #050F14;
+	border: 1px solid #fff;
 	border-left: none;
 	border-right: none;
 	color: #eee;
@@ -111,7 +112,8 @@ body {
 #business-card h1 {
 	font-size: 40px;
 	font-weight: bold;
-	margin-bottom: 0.5em;
+	margin-bottom: 0.4em;
+	color: #fff;
 }
 
 #business-card,
@@ -134,17 +136,21 @@ body {
 	margin-top: 40px;
 }
 
-.home #navigation a {
+/*.home #navigation a {
 	display: inline-block;
 	padding: 0.5em 1.5em;
+}*/
+
+#navigation li {
+	display: inline-block;
+	margin: 0.5em 1.5em;
 }
 
-.home #navigation li:before {
+#navigation li:before {
 	content: "•";
-	color: #ccc;
 }
 
-.home #navigation li:first-child:before {
+#navigation li:first-child:before {
 	content: none;
 }
 
@@ -179,7 +185,7 @@ body {
 #header #navigation li {
 	display: inline;
 	list-style: none;
-	line-height: 30px;
+	line-height: 40px;
 }
 
 .page #header-inner,
@@ -195,6 +201,10 @@ body {
 	font-size: 30px;
 	margin: 1em 0 0.8em;
 	font-weight: bold;
+}
+
+.page #header h1 {
+	font-size: 40px;
 }
 
 .page h2 {
@@ -230,6 +240,7 @@ body {
 	padding: 0.5em;
 	border: 1px solid #eee;
 	border-bottom-color: #ddd;
+	background-color: #fff;
 }
 
 img {
