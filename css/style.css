@@ -80,7 +80,7 @@ body:before {/* thanks to Maleika (Kohoutec)*/
 /* Homepage */
 
 body {
-	background-color: #eee;
+	background-image: url(/img/noise.png);
 }
 
 #business-card,
@@ -93,9 +93,13 @@ body {
 	text-shadow: 0 1px #000;
 }
 
+#header {
+	border-top: 1px solid #222;
+}
+
 #business-card a,
 #header a {
-	color: #FFAA4F;
+	color: #FFB74A;
 }
 
 #business-card {
