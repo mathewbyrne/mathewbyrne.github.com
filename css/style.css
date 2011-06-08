@@ -146,7 +146,7 @@ body {
 }
 
 #navigation li:first-child:before {
-	content: none;
+	content: "";
 }
 
 #navigation a.current {
