@@ -12,10 +12,10 @@ html, body, div, span, h1, h2, h3, h4, h5, p, ul, ol, li, a, code, pre {
 
 body {
 	line-height: 1;
-	text-shadow: 0 1px #fff;
 }
 
 /* HTML5 display-role reset for older browsers */
+
 article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
 	display: block;
@@ -30,7 +30,7 @@ ul, ol {
 body {
 	font-family: Helvetica, Arial, sans-serif;
 	color: #555;
-	/*text-shadow: 0 1px #fff;*/
+	text-shadow: 0 1px #fff;
 }
 
 body, html {
@@ -69,23 +69,23 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Sticky Footer fixes */
-body:before {/* thanks to Maleika (Kohoutec)*/
-	content:"";
-	height:100%;
-	float:left;
-	width:0;
-	margin-top:-32767px;/* thank you Erik J - negate effect of float*/
+
+body:before { /* thanks to Maleika (Kohoutec)*/
+	content: "";
+	height: 100%;
+	float: left;
+	width: 0;
+	margin-top: -32767px; /* thank you Erik J - negate effect of float*/
 }
 
 /* Homepage */
 
 body {
-	background-image: url(/img/noise.png);
+	background-image: url('/img/noise.png');
 }
 
-#business-card,
-#header {
-	background: url(/img/blue.png);
+.alternate {
+	background: url('/img/blue.png');
 	border: 1px solid #fff;
 	border-left: none;
 	border-right: none;
@@ -93,51 +93,47 @@ body {
 	text-shadow: 0 1px #000;
 }
 
+.alternate a {
+	color: #FFB74A;	
+}
+
 #header {
 	border-top: 1px solid #222;
 }
 
-#business-card a,
-#header a {
-	color: #FFB74A;
-}
+/* Splash Screen */
 
-#business-card {
+#splash {
 	text-align: center;
 	overflow: hidden;
 	position: absolute;
 	top: 50%;
 	padding: 40px 0;
+	width: 100%;
+	min-width: 640px;
 	/* This is handled in js
 	margin-top: -135px;
 	height: 150px;*/
 }
 
-#business-card h1 {
+#splash h1 {
 	font-size: 40px;
 	font-weight: bold;
 	margin-bottom: 0.4em;
 	color: #fff;
 }
 
-#business-card,
-#footer {
-	width: 100%;
-	min-width: 640px;
-}
-
-#business-card h2 {
+#splash h2 {
 	font-size: 28px;
 	height: 28px;
+	margin-bottom: 40px;
 }
 
-#business-card li {
+/* Navigation */
+
+#navigation li {
 	display: inline;
 	font-size: 18px;
-}
-
-.home #navigation {
-	margin-top: 40px;
 }
 
 #navigation a {
@@ -157,24 +153,6 @@ body {
 	color: #fff;
 }
 
-#footer {
-	font-size: 14px;
-	height: 50px;
-	line-height: 50px;
-	margin-top: -50px;
-	text-align: center;	
-}
-
-#footer a {
-	padding: 0 1em;
-}
-
-/* Internal Structure */
-
-#header {
-	margin-bottom: 18px;
-}
-
 #header #navigation {
 	position: absolute;
 	bottom: 0;
@@ -191,8 +169,34 @@ body {
 	padding-right: 0;
 }
 
-.page #header-inner,
-.page #main {
+/* Footer */
+
+#footer {
+	font-size: 14px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: -50px;
+	text-align: center;
+	width: 100%;
+	min-width: 640px;	
+}
+
+#footer a {
+	padding: 0 1em;
+}
+
+/* Internal Structure */
+
+#header {
+	margin-bottom: 18px;
+}
+
+#header h1 {
+	font-size: 40px;
+}
+
+#header-inner,
+#main {
 	width: 960px;
 	margin: 0 auto;
 	position: relative;
@@ -200,37 +204,34 @@ body {
 
 /* Content */
 
-.page h1 {
+#header h1,
+.content h1 {
 	font-size: 30px;
 	margin: 1em 0 0.8em;
 	font-weight: bold;
 }
 
-.page #header h1 {
-	font-size: 40px;
-}
-
-.page h2 {
+.content h2 {
 	font-size: 24px;
 	margin-bottom: 18px;
 	font-weight: bold;	
 }
 
-.page h3,
-.page h4 {
+.content h3,
+.content h4 {
 	font-size: 21px;
 	margin-bottom: 18px;
 	font-weight: bold;
 }
 
-.page p,
-.page #main li {
+.content p,
+.content li {
 	font-size: 18px;
 	line-height: 1.5em;
 	margin-bottom: 1em;
 }
 
-.page #main li {
+.content li {
 	list-style: disc;
 	margin-left: 1.2em;
 }
@@ -246,6 +247,6 @@ body {
 	background-color: #fff;
 }
 
-img {
+.photo img {
 	display: block;
 }
