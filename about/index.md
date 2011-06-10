@@ -16,6 +16,7 @@ You can get in contact with me via the following methods:
 - [email](mailto:mathewbyrne@gmail.com)
 - [GitHub](https://github.com/mathewbyrne)
 - [Twitter](http://twitter.com/mathewbyrne)
+- [Linked In](http://www.linkedin.com/in/mathewbyrne)
 
 # This Site
 
