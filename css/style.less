@@ -1,0 +1,266 @@
+
+/* Mixins */
+
+.body-font {
+  font-family: 'Helvetica Nueue', Helvetica, Arial, sans-serif;
+}
+
+.heading-font {
+  font-family: 'Cabin Condensed', sans-serif;
+}
+
+.h1 {
+  margin: 1em 0 0.8em;
+  font-weight: bold;
+}
+
+.container {
+  width: 960px;
+  margin: 0 auto;
+  position: relative;
+}
+
+/* Reset */
+
+html, body, div, span, h1, h2, h3, h4, h5, p, ul, ol, li, a, code, pre {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+/* Defaults */
+
+body {
+  .body-font;
+  color: #555;
+  text-shadow: 0 1px #fff;
+}
+
+body, html {
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #4E7B98;
+  
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+h1, h2, h3, h4, h5 {
+  .heading-font;
+}
+
+/* Sticky Footer */
+
+#wrapper {
+  min-height: 100%;
+}
+
+#main {
+  overflow: auto;
+  padding-bottom: 100px;
+}
+
+#footer {
+  position: relative;
+  margin-top: -50px;
+  height: 50px;
+  clear: both;
+}
+
+/* Sticky Footer fixes */
+
+body:before {
+  content: "";
+  height: 100%;
+  float: left;
+  width: 0;
+  margin-top: -32767px;
+}
+
+/* Homepage */
+
+body {
+  background-image: url('/img/noise.png');
+}
+
+.alternate {
+  background: url('/img/blue.png');
+  border: 1px solid #fff;
+  border-left: none;
+  border-right: none;
+  color: #eee;
+  text-shadow: 0 1px #000;
+  
+  a {
+    color: #FFB74A;  
+  }
+}
+
+#header {
+  border-top: 1px solid #222;
+}
+
+/* Splash Screen */
+
+#splash {
+  text-align: center;
+  overflow: hidden;
+  position: absolute;
+  top: 50%;
+  padding: 40px 0;
+  width: 100%;
+  min-width: 640px;
+  
+  h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 0.4em;
+    color: #fff;
+  }
+  
+  h2 {
+    font-size: 28px;
+    height: 28px;
+    margin-bottom: 40px;
+  }
+}
+
+/* Navigation */
+
+nav {
+  
+  li {
+    display: inline;
+    font-size: 18px;
+    
+    &:before {
+      content: "•";
+    }
+    
+    &:first-child:before {
+      content: "";
+    }
+  }
+  
+  a {
+    display: inline-block;
+    padding: 0 1.5em;
+    
+    &.current {
+      color: #fff;
+    }
+  }
+}
+
+#header nav {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  
+  li {
+    display: inline-block;
+    list-style: none;
+    line-height: 40px;
+    
+    &:last-child a {
+      padding-right: 0;
+    }
+  }
+}
+
+/* Footer */
+
+#footer {
+  font-size: 14px;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -50px;
+  text-align: center;
+  width: 100%;
+  min-width: 640px;
+  
+  a {
+    padding: 0 1em;
+  }
+}
+
+/* Internal Structure */
+
+#header {
+  margin-bottom: 18px;
+  
+  h1 {
+    .h1;
+    font-size: 40px;
+  }
+}
+
+/* Content */
+
+article, .content {
+  
+  h1 {
+    .h1;
+    font-size: 30px;
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 18px;
+    font-weight: bold;  
+  }
+  
+  h3, h4 {
+    font-size: 21px;
+    margin-bottom: 18px;
+    font-weight: bold;
+  }
+  
+  p, li {
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 1em;
+  }
+  
+  li {
+    list-style: disc;
+    margin-left: 1.2em;
+  }
+}
+
+/* Extra */
+
+.photo {
+  float: right;
+  margin: 0 0 1em 1em;
+  padding: 0.5em;
+  border: 1px solid #eee;
+  border-bottom-color: #ddd;
+  background-color: #fff;
+  
+  img {
+    display: block;
+  }
+}
